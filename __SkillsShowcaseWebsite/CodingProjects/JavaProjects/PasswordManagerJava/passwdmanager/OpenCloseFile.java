@@ -10,6 +10,15 @@ private static Scanner in;
 private static BufferedWriter out;
 private static String s = "";
 
+
+
+// USE THIS FOR CONSOLE VERSION!!!!!!!
+//http://technirman.blogspot.com/2014/06/invoke-powershell-commands-through-java.html
+
+
+
+
+
 public static String readString(){
   if(in == null){
     try{

@@ -155,13 +155,14 @@ public class UserLib {
 
     public static void loginForm() {
         Scanner in = new Scanner(System.in);
-        System.out.println("Welcome to the Password Manager Program. Please Login.\n Available commands: ");
-        System.out.println("");
-        System.out.println("1: Login");
-        System.out.println("2: Users");
-        System.out.println("3: Help");
-        System.out.println("4: Register");
-        System.out.println("5: Quit");
+        System.out.println("Welcome to the Password Manager Program. Please Login.
+                            \n Available commands:
+                            \n
+                                \n\t1: Login
+                                \n\t2: Users
+                                \n\t3: Help
+                                \n\t4:Register
+                                \n\t5: Quit");
 
         String userCommand = in.nextLine();
         if (userCommand.equals("1") || userCommand.equals("login") || userCommand.equals("Login")) {
@@ -177,12 +178,12 @@ public class UserLib {
         }
 
         else if (userCommand.equals("3") || userCommand.equals("Help") || userCommand.equals("help")) {
-            System.out.println("Commands:");
-            System.out.println("1: Login");
-            System.out.println("2: Users");
-            System.out.println("3: Help");
-            System.out.println("4: Register");
-            System.out.println("5: Quit");
+            System.out.println("Commands:
+                                \n\t1: Login
+                                \n\t2: Users
+                                \n\t3: Help
+                                \n\t4:Register
+                                \n\t5: Quit");
             loginForm();
         }
 

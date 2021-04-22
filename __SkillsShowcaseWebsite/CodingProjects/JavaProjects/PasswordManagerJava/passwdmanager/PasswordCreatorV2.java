@@ -90,7 +90,6 @@ public class PasswdCreator {
                                         uPut =false;
                                 }
                                 
-
                                 //This section takes in the users requested amount of special characters, goes through "safety checkpoints" to protect against code breaks, and manipulates the data for processing.
                                 System.out.println("Special Characters?");
                                 String specialChar = in.nextLine();
@@ -172,56 +171,48 @@ public class PasswdCreator {
                                         for (String p : charList) { //for each loop that goes through the charlist
                                                 passwordBuilder.append(p).append(""); //appends each index of the charList to the new string.
                                         }
-                                        
-
-
-
-
-
-
-
-
                                         //These next three lines create a list for passwords and save the new one to it.
                                         //ArrayList<String> passwordList = new ArrayList<String>(); //new arrayList to hold created passwords while the program is running.
                                         String newPassword = passwordBuilder.toString(); //sets the password builder as a new variable for the next step.
                                         Scanner sc = new Scanner(System.in);
+                                        '''
                                         while(uGood = false){
                                                 System.out.println("\nThe password for " +category+ " is: " +newPassword+"\nIs this correct/acceptable?");
                                                 if(sc.equals("y") || sc.equals("Y") || sc.equals("yes") || sc.equals("Yes")){
                                                         uGood = true;
                                                 }
                                                 else if(sc.equals("n") || sc.equals("N") || sc.equals("no") || sc.equals("No")){
-                                                        S
+                                                        
                                                 }
                                                 else{
                                                         System.out.println("Unrecognized input, please try again.");
                                                 }
                                         }
+                                        '''
+                                        System.out.println("\nYour new password for " +category+ " is: " +newPassword);
                                         PasswordRecord(category, newPassword);
                                         modifyPassword(lukePWS);
                                         System.out.println("\n\nWould you like to run this program again? (y/n)\n");
                                         String repeat = sc.nextLine();
-                                        if(repeat.equals("n") || repeat.equals("quit") || repeat.equals("Quit")){
-                                                return;
-                                        }   
-                                        else if(){
-
+                                        while(rep = false){
+                                                if(repeat.equals("n") || repeat.equals("N") || repeat.equals("quit") || repeat.equals("Quit")){
+                                                        return;
+                                                }   
+                                                else if(repeat.equals("y") || repeat.equals("Y") || repeat.equals("yes") || repeat.equals("Yes")){
+                                                        //
+                                                        //
+                                                        //
+                                                        //
+                                                        //
+                                                        //
+                                                        //
+                                                        //
+                                                        return;
+                                                }
+                                                else{
+                                                        System.out.println("Unrecognized input, please try again.");
+                                                }
                                         }
-                                        else{
-
-                                        }
-
-
-
-
-
-
-
-
-
-
-
-
                                 }
                                 else{
                                         System.out.println("Password length is too short, restarting data collection.");
