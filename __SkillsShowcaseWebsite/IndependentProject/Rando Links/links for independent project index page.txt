@@ -1,0 +1,64 @@
+https://bootsnipp.com/snippets/3M1pB
+https://mdbootstrap.com/docs/standard/content-styles/animations/
+https://www.w3schools.com/tags/att_iframe_sandbox.asp
+
+https://www.google.com/search?q=div+class+CodeMirror&rlz=1C1GCEA_enUS916US916&oq=div+class+CodeMirror&aqs=chrome..69i57.5542j1j7&sourceid=chrome&ie=UTF-8&safe=active
+https://codemirror.net/doc/manual.html
+https://vyrhus.site123.me/tutorials/console
+
+
+
+
+NavBar:
+	***Use this as the main Base For the index page***
+	--------------------------------------------
+	https://bootsnipp.com/snippets/E10d8
+	--------------------------------------------
+
+	https://bootsnipp.com/snippets/4Ozgx
+	https://bootsnipp.com/snippets/bxK19
+	https://bootsnipp.com/snippets/AXeZg
+	https://bootsnipp.com/snippets/4qgR
+	https://bootsnipp.com/snippets/orAGr
+
+
+
+Moving Background:
+	https://bootsnipp.com/snippets/3M1pB
+	https://bootsnipp.com/snippets/k7ADV
+	https://bootsnipp.com/snippets/56A0W
+
+
+
+Animations For Initial Start:
+	https://bootsnipp.com/snippets/4MeVm
+	https://bootsnipp.com/snippets/OR9l8
+	https://bootsnipp.com/snippets/Bx894
+
+
+
+
+
+
+
+Footer:
+	https://bootsnipp.com/snippets/9X0oX
+	https://bootsnipp.com/snippets/NBQGv
+
+
+
+
+
+
+
+
+
+Maybe Helpful:
+https://pypi.org/project/bootstrap-py/
+https://www.reddit.com/r/Python/comments/8u0fm9/python_windows_exe_bootstrap_app/
+https://www.google.com/search?q=what+is+python+flask&rlz=1C1GCEA_enUS916US916&oq=what+is+python+flask&aqs=chrome..69i57j0l6j0i22i30l3.3037j1j7&sourceid=chrome&ie=UTF-8&safe=active
+
+
+
+
+
