@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  background-attachment: fixed;
+
+}
+
+html,
+body {
+  margin: 0;
+  top: 0;
+}
+
+body {
+  background-color: #000000;
+  background-position: fixed;
+}
+/*https://css-tricks.com/how-to-stack-elements-in-css/*/
+.child{
+  position: absolute;
+  top: 0;
+  margin-left: 7%;
+  margin-right: 7%;
+  max-width: max-content;
+  padding-top: 30px;
+  align-self: center;
+}
+.containerBig{
+  background: transparent;
+    margin-left: 7%;
+  margin-right: 7%;
+  max-width: max-content;
+  padding-top: 30px;
+  align-self: center;
+  
+}
+.container{
+  background: #141414;
+}
+.parent {
+  position: relative;
+}
