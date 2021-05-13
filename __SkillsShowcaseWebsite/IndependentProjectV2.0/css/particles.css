@@ -64,8 +64,6 @@ body {
 }
 
 
-
-
 /*Text Formatters*/
 header{
   margin-top: 7px;
@@ -85,6 +83,49 @@ h1{
 }
 
 
+/*Text Editor Stuff*/
+.left{
+  box-sizing: border-box;
+}
+.right{
+  box-sizing: border-box;
+}
+.editer-menu {
+  width: 100;
+  height: 6rem;
+  background-color: #3f3f3f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding:5px 0 5px 10px;
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(255, 238, 0);
+  padding: 8px 5px;
+  border-radius: 3px;
+  width: 4vw;
+  font-size: 1.6rem;
+  margin-right: 8px;
+}
+.live{
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: 2px solid rgb(255, 238, 0);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+.live>*{
+  cursor: pointer;
+}
+.containerCode{
+  width: 100%;
+  display: flex;
+}
 
 
 
