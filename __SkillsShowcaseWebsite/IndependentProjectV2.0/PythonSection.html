@@ -5,4 +5,226 @@
 4.) 
 
 -->
-<h1>Python Section</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/livs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/particles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTML Project</title>
+  <meta name="description" content="Online JavaScript Compiler">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Degeneracy Inc.</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#section1">Home</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Coding Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#section41">Java</a></li>
+                  <li><a href="#section42">Python</a></li>
+                  <li><a href="#section43">HTML</a></li>
+                </ul>
+              </li>
+              <li><a href="#section2">About Me</a></li>
+              <li><a href="#section3">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+</body>
+<body class="body1">
+    <div class="parent">
+      <!--Part that calls & runs the particle background-->
+      <!--https://www.tutorialspoint.com/how-to-import-local-json-file-data-to-my-javascript-variable-->
+      <!--https://www.digitalocean.com/community/tutorials/js-background-effects-particlesjs-->
+      <div id="tsparticles"></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.1/tsparticles.min.js" integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA==" crossorigin="anonymous"> </script>
+      <script> 
+        const particles = {
+        "particles": {
+          "number": {
+            "value": 67,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#f0ff05"
+          },
+          "shape": {
+            "type": "triangle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 0.306824121731046,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 0.00000000000000000001,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      };
+        tsParticles.load('tsparticles', particles); 
+      </script>
+
+
+
+
+
+
+    <div class="centeredTop child">
+      <div class="containerBigTop">
+        <div class="row">
+          <h1>First HTML Project</h1>
+          <div class="container">
+            <card>
+                <div class="row container">
+                    <header>Junior Year HTML Final</header>
+                </div>
+              <p>This project was our combination of our first two HTML projects into one website</p>
+              {% include trinket-open type="python" height="300" %}
+
+              {% include trinket-close %}
+
+
+
+
+
+
+
+              
+            </card>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+  
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
