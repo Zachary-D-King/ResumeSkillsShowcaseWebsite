@@ -1,0 +1,6 @@
+iframe{
+    background: initial;
+    size: 0vmax;
+    width: max-content;
+    height: fit-content;
+}

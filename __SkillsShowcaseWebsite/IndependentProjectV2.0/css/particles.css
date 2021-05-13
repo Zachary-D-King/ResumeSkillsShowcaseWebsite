@@ -46,8 +46,8 @@ canvas{
 .containerBig{
   position: absolute;
   background: transparent;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   row-gap: 10px;
 }
 .container{
@@ -131,6 +131,7 @@ h1{
   width: 100%;
   display: flex;
 }
+
 
 
 
