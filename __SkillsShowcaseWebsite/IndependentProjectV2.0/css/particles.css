@@ -75,6 +75,16 @@ canvas{
   margin-top: 70vh;
   padding-top: 50px;
 }
+.containerBigTopA{
+  position: scroll;
+  background: transparent;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  row-gap: 10px;
+  padding-bottom: 10px;
+  margin-top: 70vh;
+  padding-top: 50px;
+}
 .containerBig{
   position: absolute;
   background: transparent;
@@ -120,6 +130,13 @@ p{
   color: white;
   font-size: 18px;
   text-align: center;
+}
+.pl{
+  margin-top: 10px;
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  text-align: left;
 }
 h1,h2{
   color: #7c7c7c;
