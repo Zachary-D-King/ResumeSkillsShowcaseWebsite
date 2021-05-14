@@ -40,7 +40,7 @@ canvas{
 .containerBigTopI{
   position: scroll;
   background: transparent;
-
+  padding-bottom: -50px;
   margin-left: 10vw;
   margin-right: 10vw;
   row-gap: 10px;
@@ -84,6 +84,7 @@ canvas{
 }
 .container{
   background: #141414;
+
 }
 /*https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/*/
 .centeredTop{
@@ -118,17 +119,27 @@ p{
   padding: 5px;
   color: white;
   font-size: 18px;
-  text-indent: 12px;
+  text-align: center;
 }
-h1{
+h1,h2{
   color: #7c7c7c;
+  text-align: center;
 }
 img.animated-gif{/*https://stackoverflow.com/questions/34331351/how-to-resize-animated-gif-with-html-css*/
   width: 600px;
   height: auto;
-  
+  margin-bottom: 1%;
 }
 
+img{
+  width: 110px;
+  height: 110px;
+  margin-bottom: 15px;
+}
+
+h5{
+  text-align: center;
+}
 /*Text Editor Stuff*/
 .left{
   box-sizing: border-box;
