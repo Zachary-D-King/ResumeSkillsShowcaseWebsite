@@ -1,0 +1,35 @@
+body{
+       font-family: "Marker Felt", "Comic Sans MS", fantasy;
+ 	 color: #003366;
+    }
+
+    h1  {
+ 	   font-size: 1.3em;
+ 	   text-align: center;
+    }
+
+   table {
+       border: 2px solid black;
+ 	   margin-left: auto;
+ 	   margin-right: auto;
+ 	   text-align: left;
+ 	   border-collapse: collapse;
+   }
+
+   tr   {
+	  border: 1px solid black;
+	  padding: 5px;
+	  text-align: center;
+	  background-color:#9FB6CD;
+  }
+
+  th {
+      border: 1px solid black;
+	 text-align: center;
+	 color: white;
+	 background-color: #003366;
+  }
+  /*https://www.w3schools.com/cssref/sel_id.asp*/
+  /*https://www.xanthir.com/b4U10*/
+  /*https://www.w3schools.com/cssref/sel_class.asp*/
+  /**/
