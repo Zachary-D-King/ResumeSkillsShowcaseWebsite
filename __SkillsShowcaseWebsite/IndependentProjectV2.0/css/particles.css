@@ -154,6 +154,10 @@ img{
   margin-bottom: 15px;
 }
 
+.img-thumbnail{
+  margin-top: 15px;
+}
+
 h5{
   text-align: center;
 }
