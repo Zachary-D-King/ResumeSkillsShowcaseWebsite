@@ -1,7 +1,6 @@
 /*Import for Pasrticles.js*/
 * {
   box-sizing: border-box;
-  background-attachment: fixed;
 
 }
 html,
@@ -18,9 +17,13 @@ body {
   width:  100vw;/*https://stackoverflow.com/questions/11516291/css-get-height-of-screen-resolution*/
 
 }
-
+.navbar{
+  position: absolute;
+}
 canvas{
   background-size: cover;
+  height: fit-content+8000px !important;/*https://css-tricks.com/fluid-width-video/*/
+  background-attachment: fixed;
 }
 
 /*Container & Layout Formatters*/
@@ -34,13 +37,42 @@ canvas{
   width: fill;
   align-self: center;
 }
-.containerBigTop{
+.containerBigTopI{
+  position: scroll;
+  background: transparent;
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+  row-gap: 10px;
+  margin-top: 40vh;
+  padding-top: 50px;
+}
+.containerBigTopH{
   position: scroll;
   background: transparent;
   margin-left: 10vw;
   margin-right: 10vw;
   row-gap: 10px;
-  margin-top: 35vh;
+  margin-top: 70vh;
+  padding-top: 50px;
+}
+.containerBigTopJ{
+  position: scroll;
+  background: transparent;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  row-gap: 10px;
+  margin-top: 55vh;
+  padding-top: 50px;
+}
+.containerBigTopP{
+  position: scroll;
+  background: transparent;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  row-gap: 10px;
+  padding-bottom: 10px;
+  margin-top: 70vh;
   padding-top: 50px;
 }
 .containerBig{
@@ -68,7 +100,12 @@ canvas{
   transform: translate(-50%, -50%);
 }
 
-
+.centeredTopI{
+  position: absolute;
+  top: 40vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*Text Formatters*/
 header{
   margin-top: 7px;
@@ -86,7 +123,11 @@ p{
 h1{
   color: #7c7c7c;
 }
-
+img.animated-gif{/*https://stackoverflow.com/questions/34331351/how-to-resize-animated-gif-with-html-css*/
+  width: 600px;
+  height: auto;
+  
+}
 
 /*Text Editor Stuff*/
 .left{

@@ -1,0 +1,30 @@
+body{
+       font-family: "Marker Felt", "Times New Roman", fantasy;
+ 	 color: DarkOliveGreen;
+    }
+
+    h1  {
+ 	   font-size: 1.9em;
+ 	   text-align: center;
+ 	   color: Gold;
+	   background-color: DimGrey;
+    }
+
+   table {
+ 	   margin-left: auto;
+ 	   margin-right: auto;
+ 	   text-align: left;
+ 	   border-collapse: collapse;
+   }
+
+   tr   {
+	  border: 1px solid DarkOliveGreen;
+	  text-align: center;
+	  background-color:DarkOliveGreen;
+  }
+
+  th   {
+	 text-align: center;
+	 color: Gold;
+	 background-color: DimGrey;
+  }
